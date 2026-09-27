@@ -477,3 +477,124 @@ a.sitename {
 	padding: 34px 0;
 	text-align: center;
 }
+/*------------------------------ REGISTRATION FORM ------------------------------*/
+#contents .registration-form {
+	padding: 10px 0 20px;
+}
+#contents .registration-form h1.form-title {
+	color: #7e501c;
+	font-size: 26px;
+	font-weight: normal;
+	margin: 0 0 16px;
+	text-align: left;
+	text-shadow: 0 2px #fdf2be;
+}
+#contents .registration-form p.form-desc {
+	color: #525252;
+	font-size: 12px;
+	line-height: 20px;
+	margin: 0 0 20px;
+	padding: 0;
+	text-align: left;
+}
+.registration-form fieldset {
+	border: 1px solid #7f7f7f;
+	margin: 0 0 16px;
+	padding: 10px 16px 16px;
+	background: transparent;
+}
+.registration-form legend {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #300302;
+	padding: 0 5px;
+}
+.registration-form .form-group {
+	margin: 10px 0 4px;
+}
+.registration-form label.field-label {
+	display: block;
+	color: #333333;
+	font-size: 12px;
+	margin: 0 0 4px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"],
+.registration-form input[type="tel"],
+.registration-form input[type="date"] {
+	border: 1px solid #7f9db9;
+	background-color: #ffffff;
+	padding: 3px 6px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 250px;
+	box-sizing: border-box;
+}
+.registration-form input[type="number"] {
+	border: 1px solid #7f9db9;
+	background-color: #ffffff;
+	padding: 3px 6px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 65px;
+	box-sizing: border-box;
+}
+.registration-form select {
+	border: 1px solid #7f9db9;
+	background-color: #ffffff;
+	padding: 2px 4px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	min-width: 170px;
+	box-sizing: border-box;
+}
+.registration-form textarea {
+	border: 1px solid #7f9db9;
+	background-color: #ffffff;
+	padding: 4px 6px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 320px;
+	height: 65px;
+	resize: vertical;
+	box-sizing: border-box;
+}
+.registration-form .inline-options {
+	margin-top: 4px;
+}
+.registration-form .inline-options label {
+	display: inline-block;
+	margin-right: 18px;
+	font-size: 12px;
+	color: #333333;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	cursor: pointer;
+}
+.registration-form .inline-options input[type="radio"],
+.registration-form .inline-options input[type="checkbox"],
+.registration-form .checkbox-single input[type="checkbox"] {
+	vertical-align: middle;
+	margin: 0 4px 0 0;
+}
+.registration-form .checkbox-single {
+	margin-top: 14px;
+}
+.registration-form .checkbox-single label {
+	font-size: 12px;
+	color: #333333;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	cursor: pointer;
+}
+.registration-form .form-actions {
+	margin-top: 14px;
+}
+.registration-form .form-actions input.btn {
+	border: 0;
+	margin-right: 6px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
