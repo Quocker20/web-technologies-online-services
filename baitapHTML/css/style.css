@@ -597,4 +597,110 @@ a.sitename {
 	display: inline-block;
 	vertical-align: middle;
 }
+/*------------------------------ MULTIMEDIA ARTICLE ------------------------------*/
+#contents .media-article {
+	padding: 10px 0 20px;
+}
+#contents .media-article h1.article-title {
+	color: #7e501c;
+	font-size: 26px;
+	font-weight: normal;
+	margin: 0 0 6px;
+	text-align: left;
+	text-shadow: 0 2px #fdf2be;
+}
+#contents .media-article p.article-meta {
+	color: #666666;
+	font-size: 11px;
+	margin: 0 0 16px;
+	padding: 0;
+	text-align: left;
+}
+#contents .media-article p.article-meta a {
+	color: #525252;
+	text-decoration: underline;
+}
+#contents .media-article figure.media-figure {
+	margin: 0 0 20px;
+	text-align: center;
+}
+#contents .media-article figure.media-figure img {
+	display: block;
+	width: 100%;
+	max-width: 520px;
+	height: auto;
+	margin: 0 auto;
+}
+#contents .media-article figure.media-figure figcaption {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	text-align: center;
+	margin-top: 8px;
+}
+#contents .media-article section {
+	margin: 0 0 20px;
+}
+#contents .media-article section h2 {
+	color: #300302;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 28px;
+	margin: 16px 0 10px;
+	text-align: center;
+}
+#contents .media-article section p {
+	color: #525252;
+	font-size: 13px;
+	line-height: 22px;
+	margin: 0 0 14px;
+	padding: 0;
+	text-align: justify;
+}
+#contents .media-article p.podcast-desc,
+#contents .media-article p.location-desc {
+	text-align: left;
+	margin-bottom: 10px;
+}
+#contents .media-article video {
+	display: block;
+	width: 100%;
+	max-width: 520px;
+	height: auto;
+	margin: 0 auto;
+	background-color: #000000;
+}
+#contents .media-article audio {
+	display: block;
+	width: 100%;
+	max-width: 520px;
+	margin: 0 auto;
+}
+#contents .media-article .map-wrapper {
+	width: 100%;
+	max-width: 520px;
+	margin: 0 auto;
+}
+#contents .media-article .map-wrapper iframe {
+	display: block;
+	width: 100%;
+	height: 260px;
+	border: 0;
+}
+#contents .media-article p.article-tags {
+	color: #525252;
+	font-size: 12px;
+	margin-top: 14px;
+	padding: 0;
+	text-align: left;
+}
+#contents .media-article p.article-tags a {
+	color: #525252;
+	text-decoration: underline;
+}
+#contents .media-article p.article-tags a:hover {
+	color: #e19320;
+}
+
 
