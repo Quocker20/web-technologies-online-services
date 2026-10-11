@@ -31,7 +31,7 @@ a {
 }
 
 .page {
-	overflow-x: hidden;
+	overflow-x: clip;
 }
 
 /* ===== Header / thanh điều hướng ===== */
@@ -144,7 +144,7 @@ a {
 	flex: 0 0 calc((100% - 48px) / 3);
 	min-height: 320px;
 	position: relative;
-	box-sizing: content-box;
+	box-sizing: border-box;
 	background: #fff;
 	border: 1px solid #e0d8c8;
 	border-radius: 8px;
@@ -156,6 +156,7 @@ a {
 	position: absolute;
 	top: 12px;
 	right: 12px;
+	z-index: 10;
 	background: #c0392b;
 	color: #fff;
 	font-size: 14px;
