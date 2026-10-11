@@ -49,7 +49,7 @@
 	--transition-bounce: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 
 	/* Sticky header offset for smooth anchor scrolling */
-	--header-offset: 175px;
+	--header-offset: 145px;
 }
 
 /* 3. Modern Reset & Base Rules */
@@ -61,7 +61,6 @@
 
 html {
 	scroll-behavior: smooth;
-	scroll-padding-top: var(--header-offset);
 	font-size: 16px;
 	-webkit-text-size-adjust: 100%;
 }
